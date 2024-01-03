@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let vc = HomePageVC()
+        let vc = LoginVC()
         self.navigationController?.pushViewController(vc, animated: true)
         
     }

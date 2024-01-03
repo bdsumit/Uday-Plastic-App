@@ -50,6 +50,8 @@
 		8497B6DF2B442DDE00C1ABC1 /* Uday_PlasticTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8497B6DE2B442DDE00C1ABC1 /* Uday_PlasticTests.swift */; };
 		8497B6E92B442DDE00C1ABC1 /* Uday_PlasticUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8497B6E82B442DDE00C1ABC1 /* Uday_PlasticUITests.swift */; };
 		8497B6EB2B442DDE00C1ABC1 /* Uday_PlasticUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8497B6EA2B442DDE00C1ABC1 /* Uday_PlasticUITestsLaunchTests.swift */; };
+		84B9F0EB2B458A700000476B /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B9F0E92B458A6F0000476B /* LoginVC.swift */; };
+		84B9F0EC2B458A700000476B /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B9F0EA2B458A6F0000476B /* LoginVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,6 +119,8 @@
 		8497B6E42B442DDE00C1ABC1 /* Uday PlasticUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Uday PlasticUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8497B6E82B442DDE00C1ABC1 /* Uday_PlasticUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Uday_PlasticUITests.swift; sourceTree = "<group>"; };
 		8497B6EA2B442DDE00C1ABC1 /* Uday_PlasticUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Uday_PlasticUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		84B9F0E92B458A6F0000476B /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		84B9F0EA2B458A6F0000476B /* LoginVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +151,7 @@
 		04D91BC32B455AED0046C1AB /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				84B9F0E82B458A6F0000476B /* Login */,
 				04D91BC42B455BDD0046C1AB /* HomePageVC */,
 			);
 			path = Controllers;
@@ -269,6 +274,15 @@
 			path = "Uday PlasticUITests";
 			sourceTree = "<group>";
 		};
+		84B9F0E82B458A6F0000476B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				84B9F0E92B458A6F0000476B /* LoginVC.swift */,
+				84B9F0EA2B458A6F0000476B /* LoginVC.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -373,6 +387,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84B9F0EC2B458A700000476B /* LoginVC.xib in Resources */,
 				04D91BEC2B455DF20046C1AB /* inter_regular.ttf in Resources */,
 				04D91C112B4579AC0046C1AB /* MapTVCell.xib in Resources */,
 				04D91BE72B455DF20046C1AB /* poppins_medium.ttf in Resources */,
@@ -428,6 +443,7 @@
 			files = (
 				8497B6CC2B442DDA00C1ABC1 /* ViewController.swift in Sources */,
 				04D91C0D2B4576960046C1AB /* viewmakeOver.swift in Sources */,
+				84B9F0EB2B458A700000476B /* LoginVC.swift in Sources */,
 				04D91C102B4579AC0046C1AB /* MapTVCell.swift in Sources */,
 				8497B6C82B442DDA00C1ABC1 /* AppDelegate.swift in Sources */,
 				04D91C0A2B4576960046C1AB /* SimpleDateFormatter.swift in Sources */,
